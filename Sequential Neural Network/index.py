@@ -16,7 +16,7 @@ model = nn.Sequential(
 
 print(model)
 
-apartments_df = pd.read_csv("streeteasy.csv")
+apartments_df = pd.read_csv("../streeteasy.csv")
 
 apartments_numpy = apartments_df[['size_sqft', 'bedrooms', 'building_age_yrs']].values
 
